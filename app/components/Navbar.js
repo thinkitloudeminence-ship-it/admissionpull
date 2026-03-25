@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
-import Logo from './Logo'
+// import Logo from './Logo'
+import Logo3D from './Logo'
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -37,7 +38,8 @@ export default function Navbar() {
       >
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <Logo />
+            {/* <Logo /> */}
+            <Logo3D/>
 
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center gap-8">
