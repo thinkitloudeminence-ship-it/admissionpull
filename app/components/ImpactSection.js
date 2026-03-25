@@ -7,10 +7,10 @@ import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion'
 
 const stats = [
-  { label: "Admission Increase", value: 156, suffix: "%", color: "from-blue-500 to-cyan-400" },
-  { label: "Student Engagement", value: 243, suffix: "%", color: "from-purple-500 to-pink-400" },
-  { label: "Brand Visibility", value: 892, suffix: "%", color: "from-cyan-500 to-blue-400" },
-  { label: "Conversion Rate", value: 78, suffix: "%", color: "from-pink-500 to-purple-400" }
+  { label: "Admission Increase", value: 156, suffix: "%", color: "from-[#FF6B6B] to-[#FF8E53]" },
+  { label: "Student Engagement", value: 243, suffix: "%", color: "from-[#4ECDC4] to-[#6c5ce7]" },
+  { label: "Brand Visibility", value: 892, suffix: "%", color: "from-[#FF6B6B] to-[#4ECDC4]" },
+  { label: "Conversion Rate", value: 78, suffix: "%", color: "from-[#4ECDC4] to-[#FF6B6B]" }
 ]
 
 const Counter = ({ end, duration = 2000, suffix = "" }) => {
@@ -47,7 +47,7 @@ const Counter = ({ end, duration = 2000, suffix = "" }) => {
 export default function ImpactSection() {
   return (
     <section className="relative py-32 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/5 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#FF6B6B]/5 to-transparent" />
       
       <div className="container mx-auto px-6">
         <motion.div
@@ -59,7 +59,7 @@ export default function ImpactSection() {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Real Impact,
-            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"> Measurable Results</span>
+            <span className="bg-gradient-to-r from-[#FF6B6B] to-[#4ECDC4] bg-clip-text text-transparent"> Measurable Results</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Institutions using our system are seeing unprecedented growth across all metrics.
@@ -81,7 +81,7 @@ export default function ImpactSection() {
               <div className="relative z-10">
                 <Counter end={stat.value} suffix={stat.suffix} />
                 <p className="text-lg text-gray-300 mt-4">{stat.label}</p>
-                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-blue-500 to-transparent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
+                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-[#4ECDC4] to-transparent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
               </div>
             </motion.div>
           ))}

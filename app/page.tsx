@@ -5,12 +5,10 @@
 import { useEffect } from 'react'
 import Lenis from '@studio-freight/lenis'
 import Hero from './components/Hero'
-import ProblemSection from './components/ProblemSection'
-import SystemSection from './components/SystemSection'
+import ServicesSection from './components/ServicesSection'
+import AboutSection from './components/AboutSection'
 import ImpactSection from './components/ImpactSection'
-import PlatformSection from './components/PlatformSection'
 import CTASection from './components/CTASection'
-import ContactSection from './components/ContactSection'
 
 export default function Home() {
   useEffect(() => {
@@ -22,6 +20,10 @@ export default function Home() {
       smoothWheel: true,
     })
 
+    /**
+     * Animation frame handler
+     * @param {number} time - The timestamp from requestAnimationFrame
+     */
     function raf(time) {
       lenis.raf(time)
       requestAnimationFrame(raf)
@@ -37,12 +39,10 @@ export default function Home() {
   return (
     <main className="relative overflow-x-hidden">
       <Hero />
-      <ProblemSection />
-      <SystemSection />
+      <ServicesSection />
+      <AboutSection />
       <ImpactSection />
-      <PlatformSection />
       <CTASection />
-      <ContactSection />
     </main>
   )
 }
