@@ -44,7 +44,7 @@ export default function CTASection() {
             <span className="bg-gradient-to-r from-[#FF6B6B] to-[#4ECDC4] bg-clip-text text-transparent"> Institution?</span>
           </h2>
           <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-            Join forward-thinking institutions that are already using admissionPull to achieve unprecedented growth.
+            Join forward-thinking institutions that are already using admissionfull to achieve unprecedented growth.
           </p>
           <Link href="/contact">
             <motion.button

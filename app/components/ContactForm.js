@@ -37,7 +37,7 @@ export default function ContactForm() {
 
   const contactInfo = [
     { icon: '📍', title: 'Visit Us', details: '123 Innovation Hub, Silicon Valley, CA 94025' },
-    { icon: '📧', title: 'Email Us', details: 'hello@admissionpull.com', link: 'mailto:hello@admissionpull.com' },
+    { icon: '📧', title: 'Email Us', details: 'hello@admissionfull.com', link: 'mailto:hello@admissionfull.com' },
     { icon: '📞', title: 'Call Us', details: '+1 (234) 567-890', link: 'tel:+1234567890' },
     { icon: '🕒', title: 'Business Hours', details: 'Mon-Fri: 9:00 AM - 6:00 PM PST' },
   ]

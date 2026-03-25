@@ -18,22 +18,18 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: 'admissionPull | Empowering Education Digitally',
+  title: 'admissionFull | Empowering Education Digitally',
   description: 'Transform your educational institution with our intelligent growth platform. Increase admissions, engagement, and student success.',
   keywords: 'education, admissions, student engagement, digital growth, educational technology',
-  authors: [{ name: 'admissionPull' }],
+  authors: [{ name: 'admissionFull' }],
   openGraph: {
-    title: 'admissionPull - Digital Growth for Educational Institutions',
+    title: 'admissionFull - Digital Growth for Educational Institutions',
     description: 'Empower your institution with intelligent digital solutions',
     type: 'website',
+    url: 'https://admissionfull.vercel.app',
   },
 }
 
-/**
- * Root layout component
- * @param {Object} props
- * @param {React.ReactNode} props.children
- */
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>

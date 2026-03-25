@@ -137,8 +137,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Email</h4>
-                  <a href="mailto:hello@admissionpull.com" className="text-gray-300 hover:text-blue-400 transition-colors">
-                    hello@admissionpull.com
+                  <a href="mailto:hello@admissionfull.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+                    hello@admissionfull.com
                   </a>
                 </div>
               </div>

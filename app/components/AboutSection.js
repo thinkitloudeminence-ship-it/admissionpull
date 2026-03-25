@@ -15,7 +15,7 @@ export default function AboutSection() {
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               About
-              <span className="bg-gradient-to-r from-[#FF6B6B] to-[#4ECDC4] bg-clip-text text-transparent"> admissionPull</span>
+              <span className="bg-gradient-to-r from-[#FF6B6B] to-[#4ECDC4] bg-clip-text text-transparent"> admissionfull</span>
             </h2>
             <p className="text-gray-300 text-lg mb-4">
               We're revolutionizing how educational institutions connect with students in the digital age.

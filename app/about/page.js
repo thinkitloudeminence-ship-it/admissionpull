@@ -26,7 +26,7 @@ export default function AboutPage() {
           >
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
               About
-              <span className="bg-gradient-to-r from-[#FF6B6B] to-[#4ECDC4] bg-clip-text text-transparent"> admissionPull</span>
+              <span className="bg-gradient-to-r from-[#FF6B6B] to-[#4ECDC4] bg-clip-text text-transparent"> admissionfull</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8">
               We're on a mission to revolutionize how educational institutions connect with students and grow digitally.

@@ -38,7 +38,6 @@ export default function Footer() {
     <footer className="relative bg-black/50 backdrop-blur-xl border-t border-white/10 mt-20">
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
-          {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-gradient-to-r from-[#FF6B6B] to-[#4ECDC4] rounded-full flex items-center justify-center">
@@ -46,7 +45,7 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold bg-gradient-to-r from-[#FF6B6B] to-[#4ECDC4] bg-clip-text text-transparent">
-                  admissionPull
+                  admissionFull
                 </h3>
                 <p className="text-sm text-gray-400">Empowering Education Digitally</p>
               </div>
@@ -68,7 +67,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Links Sections */}
           {Object.entries(footerLinks).map(([title, links]) => (
             <div key={title}>
               <h4 className="text-white font-semibold mb-4">{title}</h4>
@@ -88,10 +86,9 @@ export default function Footer() {
           ))}
         </div>
 
-        {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            © {currentYear} admissionPull. All rights reserved.
+            © {currentYear} admissionFull. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link href="/privacy" className="text-gray-500 hover:text-[#4ECDC4] text-sm transition-colors">
